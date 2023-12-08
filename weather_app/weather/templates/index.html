@@ -37,10 +37,11 @@
     <div class="card">
         <div class="card-body">
             <h5 class="card-title">City Name : {{city}}</h5>
-            <p class="card-text">Temperature: 25°C</p>
-            <p class="card-text">Condition: Sunny</p>
-            <p class="card-text">Humidity: 50%</p>
-            <p class="card-text">Wind Speed: 10 km/h</p>
+            <p class="card-text">Temperature: {{data.temperature}}</p>
+            <p class="card-text">Condition: {{data.conditon}}</p>
+            <p class="card-text">Humidity: {{ data.humidity}}</p>
+            <p class="card-text">pressure: {{ data.pressure}}</p>
+            <p class="card-text">Wind Speed: {{data.wind_speed}} km/h</p>
         </div>
     </div>
 </div>
